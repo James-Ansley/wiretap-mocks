@@ -1,0 +1,2 @@
+Foo(1).bar() -> 1
+Foo(1).baz(Foo(2)) -> Foo(3)

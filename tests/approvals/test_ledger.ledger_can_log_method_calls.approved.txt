@@ -1,0 +1,2 @@
+Foo(1).bar() -> 1
+Foo(2).bar() -> 2 (within: <class 'object'>)

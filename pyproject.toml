@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wiretap_mocks"
+version = "0.0.1"
+description = "Approval tests for mock objects"
+
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Topic :: Utilities",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+
+[tool.pytest.ini_options]
+python_functions = "~"
